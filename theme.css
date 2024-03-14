@@ -2,12 +2,25 @@ body {
 	--radius-s: 0px;
 	--radius-m: 0px;
 	--radius-l: 0px;
-	--input-radius: 0px;
-	--tab-radius-active: 0px;
-	--checkbox-radius: 0px;
-	--toggle-radius: 0px;
-	--toggle-thumb-radius: 0px;
-	--slider-thumb-radius: 0px;
+	--input-radius: 2px;
+	--tab-radius-active: 2px;
+	--checkbox-radius: 4px;
+	--toggle-radius: 4px;
+	--toggle-thumb-radius: 4px;
+	--slider-thumb-radius: 4px;
+	--font-text-theme: 'Bradley Hand ITC', Georgia, serif;
+	--ribbon-background: #01010f;
+
+}
+
+.theme-dark {
+	--background-primary: #01070e;
+	--background-secondary: #01010f;
+}
+
+.theme-light {
+	--background-primary: #e5ddf7;
+	--background-secondary: #e7dffa;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
