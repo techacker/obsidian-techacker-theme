@@ -1,21 +1,33 @@
 body {
-	--radius-s: 0px;
-	--radius-m: 0px;
-	--radius-l: 0px;
+	--radius-s: 4px;
+	--radius-m: 8px;
+	--radius-l: 12px;
+	--radius-xl: 16px;
 	--input-radius: 2px;
-	--tab-radius-active: 2px;
+	--tab-radius-active: 8px;
 	--checkbox-radius: 4px;
-	--toggle-radius: 4px;
-	--toggle-thumb-radius: 4px;
-	--slider-thumb-radius: 4px;
+	--toggle-radius: 8px;
+	--toggle-thumb-radius: 8px;
+	--slider-thumb-radius: 8px;
 	--font-text-theme: 'Bradley Hand ITC', Georgia, serif;
+	--bold-color:rgb(57, 202, 235);
+	--italic-color:rgb(237, 148, 126);
 	--ribbon-background: #01010f;
+	--link-color: white;
+	--link-external-color: limegreen;
+
+	--h1-color: rgb(243, 12, 20);
+	--h2-color: rgb(190, 182, 22);
+	--h3-color: rgb(190, 117, 22);
+	--h4-color: rgb(22, 190, 53);
+	--h5-color: rgb(26, 26, 214);
+	--h6-color: rgb(22, 154, 190);
 
 }
 
 .theme-dark {
-	--background-primary: #01070e;
-	--background-secondary: #01010f;
+	--background-primary: #1d2121;
+	--background-secondary: #272c2c;
 }
 
 .theme-light {
