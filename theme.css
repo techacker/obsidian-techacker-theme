@@ -4,35 +4,45 @@ body {
 	--radius-l: 12px;
 	--radius-xl: 16px;
 	--input-radius: 2px;
-	--tab-radius-active: 8px;
+	--tab-radius-active: 4px;
+	--border-width:5px;
 	--checkbox-radius: 4px;
 	--toggle-radius: 8px;
 	--toggle-thumb-radius: 8px;
 	--slider-thumb-radius: 8px;
 	--font-text-theme: 'Bradley Hand ITC', Georgia, serif;
-	--bold-color:rgb(57, 202, 235);
-	--italic-color:rgb(237, 148, 126);
-	--ribbon-background: #01010f;
-	--link-color: white;
-	--link-external-color: limegreen;
+	--font-smallest: 0.75em;
+	--font-smaller:	0.825em;
+	--font-small:0.925em;	
+	--font-ui-smaller:12px;
+	--font-ui-small:14px;	
+	--font-ui-medium:16px;
+	--font-ui-larger:20px;
+	--bold-color:rgb(174, 185, 28);
+	--italic-color:rgb(32, 139, 240);
+	--code-background: rgb(0, 255, 255);
+	--ribbon-background: #404244;
 
-	--h1-color: rgb(243, 12, 20);
+	--link-color: rgb(249, 204, 204);
+	--link-external-color: rgb(118, 86, 248);
+
+	--h1-color: rgb(24, 207, 55);
 	--h2-color: rgb(190, 182, 22);
-	--h3-color: rgb(190, 117, 22);
-	--h4-color: rgb(22, 190, 53);
+	--h3-color: rgb(190, 22, 179);
+	--h4-color: rgb(194, 96, 35);
 	--h5-color: rgb(26, 26, 214);
-	--h6-color: rgb(22, 154, 190);
+	--h6-color: rgb(212, 226, 52);
 
 }
 
 .theme-dark {
-	--background-primary: #1d2121;
-	--background-secondary: #272c2c;
+	--background-primary: #19171a;
+	--background-secondary: #201e20;
 }
 
 .theme-light {
-	--background-primary: #e5ddf7;
-	--background-secondary: #e7dffa;
+	--background-primary: #dbd9e0;
+	--background-secondary: #d7d5db;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
