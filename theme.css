@@ -14,16 +14,20 @@ body {
 	--font-smallest: 0.75em;
 	--font-smaller:	0.825em;
 	--font-small:0.925em;	
-	--font-ui-smaller:12px;
-	--font-ui-small:14px;	
+	--font-ui-smaller:11px;
+	--font-ui-small:13px;	
 	--font-ui-medium:16px;
 	--font-ui-larger:20px;
 	--bold-color:rgb(174, 185, 28);
 	--italic-color:rgb(32, 139, 240);
 	--code-background: rgb(0, 255, 255);
-	--ribbon-background: #404244;
+	--ribbon-background: #292529;
 
-	--link-color: rgb(249, 204, 204);
+	--nav-item-padding: 0.12em;
+	--nav-item-color-active: #e50de5;
+	
+
+	--link-color: rgb(200, 104, 232);
 	--link-external-color: rgb(118, 86, 248);
 
 	--h1-color: rgb(24, 207, 55);
